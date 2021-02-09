@@ -1,0 +1,57 @@
+Package: luci-app-ssr-plus
+Version: 183-7
+Depends: libc, shadowsocksr-libev-alt, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, pdnsd-alt, wget-ssl, lua, libuci-lua, microsocks, dns2socks, shadowsocksr-libev-ssr-local, tcping, resolveip, v2ray-plugin, xray-core, trojan, ipt2socks
+Source: feeds/helloworld/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 186533
+Filename: luci-app-ssr-plus_183-7_all.ipk
+Size: 186662
+SHA256sum: 7b043e14fc60b671d48adbf0cc9e68b2d33a12f8f4bf4b21179c4c47a4ccb75c
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 183-7
+Depends: libc, luci-app-ssr-plus
+Source: feeds/helloworld/luci-app-ssr-plus
+SourceName: luci-i18n-ssr-plus-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 6403
+Filename: luci-i18n-ssr-plus-zh-cn_183-7_all.ipk
+Size: 7246
+SHA256sum: 343d84cf6a7d5d886ca94afb409a0d7d03b983c870dc85ef3c7e77276c1a3c0a
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: feeds/helloworld/tcping
+SourceName: tcping
+Section: net
+Architecture: x86_64
+Installed-Size: 3565
+Filename: tcping_0.3-1_x86_64.ipk
+Size: 4242
+SHA256sum: 6436bd14c328214673b2a199dd4dc8a58972c77848451284a99b507cf085760a
+Description:  tcping measures the latency of a tcp-connection
+
+Package: xray-core
+Version: 1.2.4-1
+Depends: libc, ca-bundle
+Provides: v2ray-core
+Source: feeds/helloworld/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Tianling Shen <cnsztl@project-openwrt.eu.org>
+Architecture: x86_64
+Installed-Size: 5036772
+Filename: xray-core_1.2.4-1_x86_64.ipk
+Size: 5038496
+SHA256sum: 1bfa4fdb7e621d9f6f9d169ec6e0e09d64962b0ea0ed7b286be69bcd578a5721
+Description:  Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support. Fully compatible configuration.
+ It secures your network connections and thus protects your privacy.
+
